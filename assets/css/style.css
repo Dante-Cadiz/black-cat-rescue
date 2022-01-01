@@ -6,6 +6,11 @@ body {
 
 header {
     font-family: 'Abril Fatface', cursive;
+    letter-spacing: 2px;
+}
+
+#title {
+    font-size: 300%
 }
 
 #black-cat {
@@ -13,4 +18,27 @@ header {
     max-width: 1500px;
     max-height: 300px;
     object-fit: cover;
+}
+
+.active {
+    font-style: italic;
+}
+
+header a {
+    text-decoration: none;
+    color: inherit;
+}
+
+nav a {
+    font-size: 150%
+}
+
+nav a:hover {
+    border-bottom: 2px solid white;
+}
+
+#menu li  {
+    float: right;
+    list-style: none;
+    margin-right: 15px;
 }
