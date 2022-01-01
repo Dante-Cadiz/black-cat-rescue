@@ -1,0 +1,16 @@
+body {
+    font-family: 'Bodoni Moda', serif;
+    color: white;
+    background-color: black;
+}
+
+header {
+    font-family: 'Abril Fatface', cursive;
+}
+
+#black-cat {
+    display: block-inline;
+    max-width: 1500px;
+    max-height: 300px;
+    object-fit: cover;
+}
