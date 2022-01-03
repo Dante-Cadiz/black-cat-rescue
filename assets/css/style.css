@@ -10,13 +10,13 @@ header {
 }
 
 #title {
-    font-size: 300%
+    font-size: 300%;
+    float: left;
 }
 
 #black-cat {
     display: block-inline;
-    max-width: 1500px;
-    max-height: 300px;
+    width: 100%;
     object-fit: cover;
 }
 
@@ -35,6 +35,11 @@ nav a {
 
 nav a:hover {
     border-bottom: 2px solid white;
+}
+
+#menu {
+    padding-top: 40px;
+
 }
 
 #menu li  {
