@@ -1,3 +1,9 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+
 body {
     font-family: 'Bodoni Moda', serif;
     color: white;
@@ -7,17 +13,27 @@ body {
 header {
     font-family: 'Abril Fatface', cursive;
     letter-spacing: 2px;
+    height: 75px;
 }
 
 #title {
     font-size: 300%;
-    float: left;
+    margin-left: 20px;
 }
 
-#black-cat {
-    display: block-inline;
+#main-image-section {
+    height: 700px;
     width: 100%;
-    object-fit: cover;
+    position: relative;
+    z-index: -1;
+}
+
+#main-image {
+    height: 700px;
+    background: url(../images/pexels-marcelo-chagas-2539094.jpg) no-repeat center center;
+    width: 100%;
+    padding: none;
+    margin: none;
 }
 
 .active {
@@ -38,12 +54,48 @@ nav a:hover {
 }
 
 #menu {
-    padding-top: 40px;
-
+    padding-top: 15px;
 }
 
 #menu li  {
     float: right;
     list-style: none;
     margin-right: 15px;
+}
+
+#about {
+    position: absolute;
+    top: 300px;
+    left: 90px;
+    text-align: center;
+    width: 400px;
+    height: 100px;
+    background-color: rgba(106, 53, 149, 0.6);
+}
+
+#about h2 {
+    font-size: 200%
+}
+
+footer {
+    height: 75px;
+}
+
+.social-networks {
+    text-align: center;
+}
+
+.social-networks > li {
+display: inline;
+}
+
+.social-networks i {
+    font-size: 160%;
+    margin: 1%;
+    padding: 5%;
+    color:white;
+}
+
+.social-networks i:hover {
+    color: rgba(106, 53, 149, 1);
 }
