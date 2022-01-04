@@ -8,6 +8,7 @@ body {
     font-family: 'Bodoni Moda', serif;
     color: white;
     background-color: black;
+    font-weight: bold;
 }
 
 header {
@@ -19,6 +20,7 @@ header {
 #title {
     font-size: 300%;
     margin-left: 20px;
+    text-align: center;
 }
 
 #main-image-section {
@@ -77,8 +79,35 @@ nav a:hover {
     font-size: 200%
 }
 
+
+#why_black_cats {
+    color: black;
+    background-color: white;
+    height: 300px;
+    width: 41%;
+    float: left;
+    padding: 25px;
+    border: 5px solid rgba(106, 53, 149, 1);
+    margin: 30px;
+}
+
+#why_black_cats h2, #why_rescue h2 {
+    text-align: center;
+}
+
+#why_rescue {
+    color: white;
+    background-color: rgba(106, 53, 149, 1);
+    height: 300px;
+    width: 41%;
+    float: right;
+    padding: 25px;
+    border: 5px solid white;
+    margin: 30px;
+}
+
 footer {
-    height: 75px;
+    height: 25px;
 }
 
 .social-networks {
