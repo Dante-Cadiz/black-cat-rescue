@@ -19,7 +19,6 @@ header {
 
 #title {
     font-size: 300%;
-    margin-left: 20px;
     text-align: center;
 }
 
@@ -33,6 +32,7 @@ header {
 #main-image {
     height: 700px;
     background: url(../images/pexels-marcelo-chagas-2539094.jpg) no-repeat center center;
+    background-color: black;
     width: 100%;
     padding: none;
     margin: none;
@@ -57,6 +57,7 @@ nav a:hover {
 
 #menu {
     padding-top: 15px;
+    z-index: 2;
 }
 
 #menu li  {
@@ -78,7 +79,6 @@ nav a:hover {
 #about h2 {
     font-size: 200%
 }
-
 
 #why_black_cats {
     color: black;
@@ -104,6 +104,53 @@ nav a:hover {
     padding: 25px;
     border: 5px solid white;
     margin: 30px;
+}
+
+#rescue-resources {
+    height: 400px;
+    width: 50%;
+    float: left;
+}
+
+#resources-heading {
+    text-align: center;
+    font-size: 250%;
+}
+
+#rescue-menu {
+    color:rgba(69, 20, 108, 1);
+}
+
+#rescue-menu a:hover {
+    border-bottom: 2px solid rgba(69, 20, 108, 1);
+}
+
+.rescue-anchor {
+    color: white;
+}
+
+.rescue-anchor:hover {
+    font-style: italic;
+}
+
+#black-cat-pic-2-section {
+    height: 400px;
+    width: 50%;
+    float: right;
+    padding: none;
+    margin: none;
+    position: relative;
+    z-index: -1;
+}
+
+#black-cat-pic-2 {
+    background: url(../images/pexels-helena-lopes-1931367.jpg) no-repeat center center;
+    background-color: white);
+    background-size: cover;
+    height: 400px;
+    width: 100%;
+    position: absolute;
+    top: -30px;
 }
 
 footer {
