@@ -175,3 +175,47 @@ display: inline;
 .social-networks i:hover {
     color: rgba(106, 53, 149, 1);
 }
+
+#comp-form {
+    height: 600px;
+    width: 30%;
+    float: left;
+    padding: 0;
+    margin: 0;
+    background-color: rgba(106, 53, 149, 1);
+}
+
+#comp-image-section {
+    height: 600px;
+    width: 70%;
+    float: right;
+    position: relative;
+    z-index: -1;
+}
+
+#comp-image {
+    height: 600px;
+    width: 100%;
+    background: url(../images/pexels-david-bartus-1510543.jpg) no-repeat center center;
+    background-size: cover;
+    background-color: black;
+    position: absolute;
+    padding: 0;
+    margin: 0;
+    border: 0;
+    top: -31.5px;
+}
+
+#comp-description {
+    height: 200px;
+    width: 350px;
+    background-color: rgba(106, 53, 149, 0.6);
+    z-index: 2;
+    left: 50px;
+    top: 50px;
+    position: absolute;
+}
+
+#comp-description h2 {
+    text-align: center;
+}
