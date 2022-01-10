@@ -6,8 +6,8 @@
 
 body {
     font-family: 'Bodoni Moda', serif;
-    color: white;
-    background-color: black;
+    color: #FFFFFF;
+    background-color: #000000;
     font-weight: bold;
 }
 
@@ -17,9 +17,19 @@ header {
     height: 75px;
 }
 
+h2 {
+    text-align: center;
+}
+
+
 #title {
     font-size: 300%;
     text-align: center;
+}
+
+form {
+    display: block;
+    margin: 5px;
 }
 
 #main-image-section {
@@ -32,14 +42,10 @@ header {
 #main-image {
     height: 700px;
     background: url(../images/pexels-marcelo-chagas-2539094.jpg) no-repeat center center;
-    background-color: black;
+    background-color: #000000;
     width: 100%;
     padding: none;
     margin: none;
-}
-
-.active {
-    font-style: italic;
 }
 
 header a {
@@ -52,7 +58,7 @@ nav a {
 }
 
 nav a:hover {
-    border-bottom: 2px solid white;
+    border-bottom: 2px solid #FFFFFF;
 }
 
 #menu {
@@ -81,8 +87,8 @@ nav a:hover {
 }
 
 #why_black_cats {
-    color: black;
-    background-color: white;
+    color: #000000;
+    background-color: #FFFFFF;
     height: 300px;
     width: 41%;
     float: left;
@@ -91,18 +97,15 @@ nav a:hover {
     margin: 30px;
 }
 
-#why_black_cats h2, #why_rescue h2 {
-    text-align: center;
-}
 
 #why_rescue {
-    color: white;
+    color: #FFFFFF;
     background-color: rgba(106, 53, 149, 1);
     height: 300px;
     width: 41%;
     float: right;
     padding: 25px;
-    border: 5px solid white;
+    border: 5px solid #FFFFFF;
     margin: 30px;
 }
 
@@ -126,11 +129,7 @@ nav a:hover {
 }
 
 .rescue-anchor {
-    color: white;
-}
-
-.rescue-anchor:hover {
-    font-style: italic;
+    color: #FFFFFF;
 }
 
 #black-cat-pic-2-section {
@@ -145,7 +144,7 @@ nav a:hover {
 
 #black-cat-pic-2 {
     background: url(../images/pexels-helena-lopes-1931367.jpg) no-repeat center center;
-    background-color: white);
+    background-color: #FFFFFF;
     background-size: cover;
     height: 400px;
     width: 100%;
@@ -169,25 +168,29 @@ display: inline;
     font-size: 160%;
     margin: 1%;
     padding: 5%;
-    color:white;
+    color: #FFFFFF;
 }
 
 .social-networks i:hover {
     color: rgba(106, 53, 149, 1);
 }
 
-#comp-form {
+#comp-form-section {
     height: 600px;
     width: 30%;
-    float: left;
     padding: 0;
     margin: 0;
     background-color: rgba(106, 53, 149, 1);
 }
 
+#comp-form-section div {
+    width: 100%;
+}
+
 #story {
     height: 200px;
-    width: 100%;
+    width: 90%;
+    margin: 5px;
 }
 
 input:focus {
@@ -198,21 +201,23 @@ input:focus {
     height: 600px;
     width: 70%;
     float: right;
+    padding: none;
+    margin: none;
     position: relative;
     z-index: -1;
-}
+    top: -600px;
+   }
 
 #comp-image {
     height: 600px;
     width: 100%;
-    background: url(../images/pexels-david-bartus-1510543.jpg) no-repeat center center;
+    background: url(../images/pexels-david-bartus-black-cat-resized.png) no-repeat center center;
     background-size: cover;
-    background-color: black;
+    background-color: #000000;
     position: absolute;
     padding: 0;
     margin: 0;
     border: 0;
-    top: -31.5px;
 }
 
 #comp-description {
