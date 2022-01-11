@@ -21,16 +21,52 @@ h2 {
     text-align: center;
 }
 
+form {
+    display: block;
+    margin: 10px;
+}
+
+input {
+    display: block;
+    height: 25px;
+    width: 90%;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 2px;
+    border: 2px solid #000000;
+    color: #000000;
+    font-family: 'Bodoni Moda', serif;
+    font-weight: bold;
+}
+
+input:focus {
+    background-color: #ccffff;
+}
+
+textarea {
+    display: block;
+    resize: none;
+    height: 250px;
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 10px;
+    padding: 2px;
+    border: 2px solid #000000;
+    color: #000000;
+    font-family: 'Bodoni Moda', serif;
+    font-weight: bold;
+}
+
+textarea:focus {
+    outline: none;
+}
 
 #title {
     font-size: 300%;
     text-align: center;
 }
 
-form {
-    display: block;
-    margin: 5px;
-}
 
 #main-image-section {
     height: 700px;
@@ -183,18 +219,25 @@ display: inline;
     background-color: rgba(106, 53, 149, 1);
 }
 
-#comp-form-section div {
-    width: 100%;
+#comp-form-section > div {
+    margin: auto;
 }
 
-#story {
-    height: 200px;
-    width: 90%;
-    margin: 5px;
+.comp-form {
+
 }
 
-input:focus {
-    background-color: #ccffff;
+#submit-div {
+    margin: auto;
+    width: 30%;
+}
+
+div > input {
+    height: 30px;
+    background-color:#FFFFFF;
+    font-size: 100%;
+    border: 2px solid #000000;
+    padding-bottom: 3px;
 }
 
 #comp-image-section {
