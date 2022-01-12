@@ -47,9 +47,7 @@ textarea {
     display: block;
     resize: none;
     height: 250px;
-    width: 100%;
-    margin-right: auto;
-    margin-left: auto;
+    width: 98%;
     margin-bottom: 10px;
     padding: 2px;
     border: 2px solid #000000;
@@ -222,10 +220,6 @@ display: inline;
 
 #comp-form-section > div {
     margin: auto;
-}
-
-.comp-form {
-
 }
 
 #submit-div {
