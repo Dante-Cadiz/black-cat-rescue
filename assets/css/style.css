@@ -14,7 +14,7 @@ body {
 header {
     font-family: 'Abril Fatface', cursive;
     letter-spacing: 2px;
-    height: 75px;
+    height: 110px;
 }
 
 h2 {
@@ -62,6 +62,11 @@ textarea:focus {
     outline: none;
 }
 
+footer {
+    height: 25px;
+    clear: both;
+}
+
 #title {
     font-size: 300%;
     text-align: center;
@@ -97,12 +102,11 @@ nav a:hover {
     border-bottom: 2px solid #FFFFFF;
 }
 
-#menu {
-    padding-top: 15px;
+nav {
     z-index: 2;
 }
 
-#menu li  {
+nav li  {
     float: right;
     list-style: none;
     margin-right: 15px;
@@ -156,14 +160,6 @@ nav a:hover {
     font-size: 250%;
 }
 
-#rescue-menu {
-    color:rgba(69, 20, 108, 1);
-}
-
-#rescue-menu a:hover {
-    border-bottom: 2px solid rgba(69, 20, 108, 1);
-}
-
 .rescue-anchor {
     color: #FFFFFF;
 }
@@ -184,12 +180,16 @@ nav a:hover {
     background-size: cover;
     height: 400px;
     width: 100%;
-    position: absolute;
-    top: -30px;
 }
 
-footer {
-    height: 25px;
+#rescue-comic {
+    background: url(../images/black-cat-comic-jenny-jinya.jpg) no-repeat center center;
+    background-color: rgba(106, 53, 149, 1);
+    background-size: cover;
+    height: 1000px;
+    width: 50%;
+    float: left;
+    clear: both;
 }
 
 .social-networks {
@@ -216,6 +216,7 @@ display: inline;
     width: 30%;
     padding: 0;
     margin: 0;
+    float: left;
     background-color: rgba(106, 53, 149, 1);
 }
 
@@ -248,7 +249,6 @@ div > input {
     margin: none;
     position: relative;
     z-index: -1;
-    top: -600px;
    }
 
 #comp-image {
@@ -257,7 +257,6 @@ div > input {
     background: url(../images/pexels-david-bartus-black-cat-resized.png) no-repeat center center;
     background-size: cover;
     background-color: #000000;
-    position: absolute;
     padding: 0;
     margin: 0;
     border: 0;
@@ -267,6 +266,7 @@ div > input {
     height: 200px;
     width: 350px;
     background-color: rgba(106, 53, 149, 0.6);
+    padding: 5px;
     z-index: 2;
     left: 50px;
     top: 50px;
