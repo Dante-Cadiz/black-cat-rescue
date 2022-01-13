@@ -21,6 +21,10 @@ h2 {
     text-align: center;
 }
 
+p {
+    margin: 15px;
+}
+
 form {
     display: block;
     margin: 10px;
@@ -81,6 +85,7 @@ footer {
 #main-image {
     height: 700px;
     background: url(../images/pexels-marcelo-chagas-2539094.jpg) no-repeat center center;
+    background-size: cover;
     background-color: #000000;
     width: 100%;
     padding: none;
@@ -150,7 +155,9 @@ nav li  {
 #rescue-resources {
     height: 400px;
     width: 50%;
+    box-sizing: border-box;
     float: left;
+    padding: 10px;
 }
 
 #resources-heading {
@@ -188,6 +195,13 @@ nav li  {
     width: 50%;
     float: left;
     clear: both;
+}
+
+#get-involved {
+    width: 50%;
+    float: right;
+    box-sizing: border-box;
+    padding: 10px;
 }
 
 .social-networks {
