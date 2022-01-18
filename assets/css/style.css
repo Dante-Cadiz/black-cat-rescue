@@ -314,23 +314,31 @@ div > input {
 }
 
 /*for mobile devices*/
-@media screen and (max-width: 600px) {
 
-nav {
+@media screen and (max-width: 600px) {
+    
+    nav {
     float: left;
     margin-left: 10px;
     line-height: 30px;
 }
 
-#about {
-    height: 150px;
-    width: 80%;
-    top: 550px;
-    font-size: smaller;
+#main-image {
+    height: 500px;
 }
+
+#about {
+    height: 80px;
+    width: 300px;
+    top: 410px;
+    left: 30px;
+    font-size: x-small;
+}
+
 
 .why_list_div {
     font-size: 80%;
+    margin: none;
 }
 
 #rescue-resources {
