@@ -88,6 +88,7 @@ footer {
     background-size: cover;
     background-color: #000000;
     width: 100%;
+    clear: both;
 }
 
 header a {
@@ -121,33 +122,33 @@ nav li  {
     width: 400px;
     height: 100px;
     background-color: rgba(106, 53, 149, 0.6);
+    z-index: 2;
 }
 
 #about h2 {
     font-size: 200%
 }
 
+.why_list_div {
+    height: 300px;
+    width: 41%;
+    padding: 25px;
+    margin: 30px;
+    display: inline-block;
+    clear: both;
+}
+
 #why_black_cats {
     color: #000000;
     background-color: #FFFFFF;
-    height: 300px;
-    width: 41%;
-    float: left;
-    padding: 25px;
     border: 5px solid rgba(106, 53, 149, 1);
-    margin: 30px;
 }
-
 
 #why_rescue {
     color: #FFFFFF;
     background-color: rgba(106, 53, 149, 1);
-    height: 300px;
-    width: 41%;
     float: right;
-    padding: 25px;
     border: 5px solid #FFFFFF;
-    margin: 30px;
 }
 
 #rescue-resources {
@@ -279,21 +280,28 @@ div > input {
     text-align: center;
 }
 
-/*for tablets and other smaller screen sizes*/
-@media screen and (max-width: 1000px) {
-    #why_black_cats {
-        height: 300px;
-        width: 90%;
-        margin: 20px 20px 20px 20px;
-    }
-    
-    #why_rescue {
-        height: 300px;
-        width: 90%;
-        float: left;
-        margin: 20px 20px 20px 20px;
+/*media queries*/
+
+/*for smaller desktop screens*/
+
+@media screen and (max-width: 1200px) {
+
+    #about {
+        top: 500px;
+        left: 60px;
     }
 
+    .why_list_div {
+        height: 350px;
+        width: 82%;
+        margin: 20px;
+    }
+
+}
+
+/*for tablets and other smaller screen sizes*/
+@media screen and (max-width: 900px) {
+    
     #rescue-comic {
         display: none;
     }
@@ -306,44 +314,41 @@ div > input {
 }
 
 /*for mobile devices*/
-@media screen and (max-width: 640px) {
+@media screen and (max-width: 600px) {
 
 nav {
     float: left;
     margin-left: 10px;
+    line-height: 30px;
 }
 
 #about {
-    position: absolute;
-    top: 50px;
-    left: 60px;
-    text-align: center;
-    width: 400px;
-    height: 100px;
-    background-color: rgba(106, 53, 149, 0.6);
+    height: 150px;
+    width: 80%;
+    top: 550px;
+    font-size: smaller;
 }
 
-#why_black_cats {
-    height: 450px;
-    width: 80%;
-    margin: 20px 20px 20px 20px;
-}
-
-#why_rescue {
-    height: 450px;
-    width: 80%;
-    float: left;
-    margin: 20px 20px 20px 20px;
+.why_list_div {
+    font-size: 80%;
 }
 
 #rescue-resources {
+    height: 500px;
     width: 100%;
     clear: left;
 }
 
+
 #black-cat-pic-2-section {
     width: 100%;
     float: left;
+    clear: left;
+}
+
+#get-involved {
+    height: 600px;
+    overflow-y: scroll;
 }
 
 #comp-form-section {
