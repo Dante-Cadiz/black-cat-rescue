@@ -29,3 +29,8 @@ The prize for winning said competition is advertised adjacent to the form in a c
 Footer: 
 
 Social media links - These clickable and clearly understandable icons link to various social media sites for this campaign and are accompanied by a colour change animation upon hovering to increase clarity for the user.
+
+External sources used:
+
+Code for footer social media links lifted from Love Running practice project.
+Images from pexels.com and jenny-jinya.com.

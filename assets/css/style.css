@@ -159,7 +159,7 @@ nav li  {
     padding: 10px;
 }
 
-#resources-heading {
+.rescue-heading {
     text-align: center;
     font-size: 250%;
 }
@@ -292,16 +292,26 @@ div > input {
     }
 
     .why_list_div {
-        height: 350px;
+        float: none;
+        height: 300px;
         width: 82%;
-        margin: 20px;
+        margin: 20px auto;
+        display: block;
+    }
+
+    #why_rescue {
+        float: none;
     }
 
 }
 
 /*for tablets and other smaller screen sizes*/
 @media screen and (max-width: 900px) {
-    
+   
+.rescue-heading {
+    font-size: 150%;
+}
+
     #rescue-comic {
         display: none;
     }
@@ -334,21 +344,27 @@ nav li {
 }
 
 #main-image {
-    height: 500px;
+    height: 600px;
 }
 
 #about {
     height: 80px;
     width: 300px;
-    top: 410px;
+    top: 500px;
     left: 30px;
     font-size: x-small;
 }
 
-
 .why_list_div {
     font-size: 80%;
-    margin: none;
+    height: 350px;
+    margin: 0 5px 20px 5px;
+    max-width: 80%;
+}
+
+.rescue-heading {
+    font-size: 250%;
+    margin-bottom: 20px;
 }
 
 #rescue-resources {
