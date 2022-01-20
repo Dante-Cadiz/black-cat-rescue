@@ -106,10 +106,11 @@ nav a:hover {
 
 nav {
     z-index: 2;
+    float: right;
 }
 
 nav li  {
-    float: right;
+    float: left;
     list-style: none;
     margin-right: 15px;
 }
