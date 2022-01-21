@@ -22,32 +22,20 @@ Explanations - ![black cat screenshot 4](https://user-images.githubusercontent.c
 Below the hero image, 2 sections explain the importance of animal rescue and the site's focus on black cats. 
 
 Rescue page - ![black cat screenshot 2](https://user-images.githubusercontent.com/94368193/150524932-792bf7f0-6865-4e64-8699-abfee3a68cfd.png)
-
+g
 External resources - the user is directed to external resources providing additional practical information about rescue animals through functional links. These links are underlined to direct the user to interact with them.
 
 Get involved - A section providing textual information about how the user can involve themselves in animal rescue in a practical way.
 
-<<<<<<< HEAD
-Competition - black cat screenshot 3
-=======
 Competition - ![black cat screenshot 3](https://user-images.githubusercontent.com/94368193/150525098-f04a5caa-f6e0-4493-ae9e-803782225491.png)
->>>>>>> 4a92d59199de59f506bffbf71414a8ca9c4bb60d
 
 Form - This competition form collects details from users who choose to submit a short anecdote about their cat in order to enter a competition. The prize for winning said competition is advertised adjacent to the form in a clearly visible div that sits in front of the page's main image.
 
-<<<<<<< HEAD
-Footer -black cat social media
-=======
 Footer -![black cat social media](https://user-images.githubusercontent.com/94368193/150525206-fc452b0d-abe1-40d5-918a-8154e31c913c.png)
->>>>>>> 4a92d59199de59f506bffbf71414a8ca9c4bb60d
 
 Social media links - These clickable and clearly understandable icons link to various social media sites for this campaign and are accompanied by a colour change animation upon hovering to increase clarity for the user. These are consistent across all 3 parts of the website.
 
 External sources used:
 
-<<<<<<< HEAD
-Code for footer social media links lifted from Code Institute's Love Running practice project. Images from pexels.com and jenny-jinya.com (the latter is watermarked)
-=======
 Code for footer social media links lifted from Code Institute's Love Running practice project.
 Images from pexels.com and jenny-jinya.com (the latter is watermarked)
->>>>>>> 4a92d59199de59f506bffbf71414a8ca9c4bb60d
