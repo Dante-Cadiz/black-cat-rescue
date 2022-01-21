@@ -32,7 +32,7 @@ Competition - ![black cat screenshot 3](https://user-images.githubusercontent.co
 Form - This competition form collects details from users who choose to submit a short anecdote about their cat in order to enter a competition. 
 The prize for winning said competition is advertised adjacent to the form in a clearly visible div that sits in front of the page's main image. 
 
-Footer: ![black cat social media](https://user-images.githubusercontent.com/94368193/150525206-fc452b0d-abe1-40d5-918a-8154e31c913c.png)
+Footer -![black cat social media](https://user-images.githubusercontent.com/94368193/150525206-fc452b0d-abe1-40d5-918a-8154e31c913c.png)
 
 Social media links - These clickable and clearly understandable icons link to various social media sites for this campaign and are accompanied by a colour change animation upon hovering to increase clarity for the user. These are consistent across all 3 parts of the website.
 
