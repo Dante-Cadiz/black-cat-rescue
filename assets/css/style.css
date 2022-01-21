@@ -64,6 +64,30 @@ textarea:focus {
     outline: none;
 }
 
+header a {
+    text-decoration: none;
+    color: inherit;
+}
+
+nav a {
+    font-size: 150%
+}
+
+nav a:hover {
+    border-bottom: 2px solid #FFFFFF;
+}
+
+nav {
+    z-index: 2;
+    float: right;
+}
+
+nav li  {
+    float: left;
+    list-style: none;
+    margin-right: 15px;
+}
+
 footer {
     height: 25px;
     clear: both;
@@ -89,30 +113,6 @@ footer {
     background-color: #000000;
     width: 100%;
     clear: both;
-}
-
-header a {
-    text-decoration: none;
-    color: inherit;
-}
-
-nav a {
-    font-size: 150%
-}
-
-nav a:hover {
-    border-bottom: 2px solid #FFFFFF;
-}
-
-nav {
-    z-index: 2;
-    float: right;
-}
-
-nav li  {
-    float: left;
-    list-style: none;
-    margin-right: 15px;
 }
 
 #about {
@@ -228,16 +228,12 @@ display: inline;
     background-color: rgba(106, 53, 149, 1);
 }
 
-#comp-form-section > div {
-    margin: auto;
-}
-
 #submit-div {
     margin: auto;
     width: 30%;
 }
 
-div > input {
+form > input {
     height: 30px;
     background-color:#FFFFFF;
     font-size: 100%;
