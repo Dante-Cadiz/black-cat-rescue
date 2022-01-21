@@ -5,6 +5,8 @@ Features:
 
 Visual layout: 2 synergetic and readable fonts are used.
 The site's color scheme is limited to black, white, and 2 shades of lilac.
+The site meets all accessibility requirements, with aria labels for images present and fonts suitable.
+The site functions fully on desktop, tablet, and mobile devices.
 The website contains multiple images. While striking, these images do not detract from the information presented in the website.
 
 Home page- ![black cat screenshot 1](https://user-images.githubusercontent.com/94368193/150524860-7a9934d3-a762-47fb-82bb-0c31b80f6570.png)
