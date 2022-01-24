@@ -56,7 +56,8 @@ These clickable and clearly understandable icons link to various social media si
 
 HTML - No errors were detected when the code was passed through the official W3C validator.
 CSS - No errors were detected when the code was passed through the official Jigsaw validator.
-Accessibility - 
+Accessibility - The website scores as followes when audited by Chrome Devtools' Lighthouse:
+![lighthouse accessibility scores](https://i.imgur.com/MzCLp0E.png)
 
 ## Bugs: 
 
