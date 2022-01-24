@@ -1,6 +1,8 @@
 Black Cat Rescue is a website advocating for the adoption and support of rescue cats; particularly black cats who are typically the last to be adopted.
 Users of this website will be able to access textual information regarding the importance of animal rescue, follow external links to other online resources supporting this cause, and participate in a writing competition to promote cat rescue and ownership. The site is targeted towards cat lovers.
 
+(screenshot of site on different sized devices here)
+
 Features:
 
 Visual layout: 2 synergetic and readable fonts are used.
@@ -36,6 +38,29 @@ Form - This competition form collects details from users who choose to submit a 
 Footer -![black cat social media](https://user-images.githubusercontent.com/94368193/150525206-fc452b0d-abe1-40d5-918a-8154e31c913c.png)
 
 Social media links - These clickable and clearly understandable icons link to various social media sites for this campaign and are accompanied by a colour change animation upon hovering to increase clarity for the user. These are consistent across all 3 parts of the website.
+
+Validator testing:
+
+HTML - No errors were detected when the code was passed through the official W3C validator.
+CSS - No errors were detected when the code was passed through the official Jigsaw validator.
+Accessibility - 
+
+Bugs: 
+
+Solved bugs: After deployment to GitHub, the media queries controlling responsive elements of the site were not being detected. This was fixed via an adjustment to the head section of the HTML of each page, namely using the meta tag <meta content="width=device-width, initial-scale=1" name="viewport"/> to allow the screen width to be detected correctly.
+
+Unfixed bugs:
+
+No unfixed bugs.
+
+Deployment:
+
+The site was deployed to GitHub pages. To deploy the site:
+In the GitHub repository, navigate to the Settings tab. 
+From the source section dropdown menu, select the Main branch. 
+The page then provided the link to the completed website.
+
+The live link is available at https://dante-cadiz.github.io/black-cat-rescue/rescue.html
 
 External sources used:
 
