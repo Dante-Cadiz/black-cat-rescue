@@ -111,11 +111,10 @@ footer {
 }
 .why_list_div {
     height: 300px;
-    width: 41%;
+    width: 40%;
     padding: 25px;
     margin: 30px;
     display: inline-block;
-    clear: both;
 }
 #why_black_cats {
     color: #000000;
@@ -290,7 +289,7 @@ form > input {
     .why_list_div {
         font-size: 80%;
         height: 380px;
-        margin: 20px 5px 20px 5px;
+        margin: 20px auto;
         max-width: 80%;
    }
     #rescue-resources {
