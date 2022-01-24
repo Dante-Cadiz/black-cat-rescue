@@ -39,8 +39,8 @@ input {
     padding: 2px;
     border: 2px solid #000000;
     color: #000000;
-    font-family: 'Bodoni Moda', serif;
-    font-weight: bold;
+    font-family: inherit;
+    font-weight: inherit;
 }
 
 input:focus {
@@ -51,13 +51,15 @@ textarea {
     display: block;
     resize: none;
     height: 250px;
-    width: 98%;
+    width: 90%;
+    margin-right: auto;
+    margin-left: auto;
     margin-bottom: 10px;
     padding: 2px;
     border: 2px solid #000000;
     color: #000000;
-    font-family: 'Bodoni Moda', serif;
-    font-weight: bold;
+    font-family: inherit;
+    font-weight: inherit;
 }
 
 textarea:focus {
@@ -89,7 +91,6 @@ nav li  {
 }
 
 footer {
-    height: 25px;
     clear: both;
 }
 
@@ -188,7 +189,7 @@ footer {
 #rescue-comic {
     background: url(../images/black-cat-comic-jenny-jinya.jpg) no-repeat center center;
     background-color: rgba(106, 53, 149, 1);
-    background-size: cover;
+    background-size: contain;
     height: 1000px;
     width: 50%;
     float: left;
@@ -399,3 +400,4 @@ nav li {
 }
 
 }
+
