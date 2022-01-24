@@ -3,33 +3,31 @@
     padding: 0;
     border: none;
 }
-
 body {
     font-family: 'Bodoni Moda', serif;
     color: #FFFFFF;
     background-color: #000000;
     font-weight: bold;
 }
-
 header {
     font-family: 'Abril Fatface', cursive;
     letter-spacing: 2px;
     height: 110px;
 }
-
+h1 {
+    font-size: 300%;
+    text-align: center;
+}
 h2 {
     text-align: center;
 }
-
 p {
     margin: 15px;
 }
-
 form {
     display: block;
     margin: 10px;
 }
-
 input {
     display: block;
     height: 25px;
@@ -42,11 +40,9 @@ input {
     font-family: inherit;
     font-weight: inherit;
 }
-
 input:focus {
     background-color: #ccffff;
 }
-
 textarea {
     display: block;
     resize: none;
@@ -61,61 +57,45 @@ textarea {
     font-family: inherit;
     font-weight: inherit;
 }
-
 textarea:focus {
     outline: none;
 }
-
 header a {
     text-decoration: none;
     color: inherit;
 }
-
 nav a {
-    font-size: 150%
+    font-size: 150% 
 }
-
 nav a:hover {
     border-bottom: 2px solid #FFFFFF;
 }
-
 nav {
     z-index: 2;
     float: right;
 }
-
-nav li  {
+nav li {
     float: left;
     list-style: none;
     margin-right: 15px;
 }
-
 footer {
     clear: both;
 }
-
-#title {
-    font-size: 300%;
-    text-align: center;
-}
-
-
 #main-image-section {
     height: 700px;
     width: 100%;
     position: relative;
     z-index: -1;
+    clear: both;
 }
-
 #main-image {
     height: 700px;
     background: url(../images/pexels-marcelo-chagas-2539094.jpg) no-repeat center center;
     background-size: cover;
     background-color: #000000;
     width: 100%;
-    clear: both;
 }
-
 #about {
     position: absolute;
     top: 300px;
@@ -126,11 +106,9 @@ footer {
     background-color: rgba(106, 53, 149, 0.6);
     z-index: 2;
 }
-
 #about h2 {
-    font-size: 200%
+    font-size: 200% 
 }
-
 .why_list_div {
     height: 300px;
     width: 41%;
@@ -139,20 +117,17 @@ footer {
     display: inline-block;
     clear: both;
 }
-
 #why_black_cats {
     color: #000000;
     background-color: #FFFFFF;
     border: 5px solid rgba(106, 53, 149, 1);
 }
-
 #why_rescue {
     color: #FFFFFF;
     background-color: rgba(106, 53, 149, 1);
     float: right;
     border: 5px solid #FFFFFF;
 }
-
 #rescue-resources {
     height: 400px;
     width: 50%;
@@ -160,16 +135,13 @@ footer {
     float: left;
     padding: 10px;
 }
-
 .rescue-heading {
     text-align: center;
     font-size: 250%;
 }
-
 .rescue-anchor {
     color: #FFFFFF;
 }
-
 #black-cat-pic-2-section {
     height: 400px;
     width: 50%;
@@ -177,7 +149,6 @@ footer {
     position: relative;
     z-index: -1;
 }
-
 #black-cat-pic-2 {
     background: url(../images/pexels-helena-lopes-1931367.jpg) no-repeat center center;
     background-color: #FFFFFF;
@@ -185,7 +156,6 @@ footer {
     height: 400px;
     width: 100%;
 }
-
 #rescue-comic {
     background: url(../images/black-cat-comic-jenny-jinya.jpg) no-repeat center center;
     background-color: rgba(106, 53, 149, 1);
@@ -195,45 +165,37 @@ footer {
     float: left;
     clear: both;
 }
-
 #get-involved {
     width: 50%;
     float: right;
     box-sizing: border-box;
     padding: 10px;
 }
-
 .social-networks {
     text-align: center;
 }
-
 .social-networks > li {
-display: inline;
+    display: inline;
 }
-
 .social-networks i {
     font-size: 160%;
     margin: 1%;
     padding: 5%;
     color: #FFFFFF;
 }
-
 .social-networks i:hover {
     color: rgba(106, 53, 149, 1);
 }
-
 #comp-form-section {
     height: 600px;
     width: 30%;
     float: left;
     background-color: rgba(106, 53, 149, 1);
 }
-
 #submit-div {
     margin: auto;
     width: 30%;
 }
-
 form > input {
     height: 30px;
     background-color:#FFFFFF;
@@ -241,15 +203,13 @@ form > input {
     border: 2px solid #000000;
     padding-bottom: 3px;
 }
-
 #comp-image-section {
     height: 600px;
     width: 70%;
     float: right;
     position: relative;
     z-index: -1;
-   }
-
+}
 #comp-image {
     height: 600px;
     width: 100%;
@@ -260,7 +220,6 @@ form > input {
     margin: 0;
     border: 0;
 }
-
 #comp-description {
     height: 200px;
     width: 350px;
@@ -271,133 +230,96 @@ form > input {
     top: 50px;
     position: absolute;
 }
-
 #comp-description h2 {
     text-align: center;
 }
-
 /*media queries*/
-
 /*for smaller desktop screens*/
-
 @media screen and (max-width: 1200px) {
-
     #about {
         top: 500px;
         left: 60px;
-    }
-
+   }
     .why_list_div {
         float: none;
         height: 300px;
         width: 82%;
         margin: 20px auto;
         display: block;
-    }
-
+   }
     #why_rescue {
         float: none;
-    }
-
+   }
 }
-
 /*for tablets and other smaller screen sizes*/
 @media screen and (max-width: 900px) {
-   
-.rescue-heading {
-    font-size: 150%;
-}
-
     #rescue-comic {
         display: none;
-    }
-    
+   }
     #get-involved {
         width: 100%;
         float: left;
-    }
-    
-}
-
-/*for mobile devices*/
-
-@media screen and (max-width: 600px) {
-  
-    header {
-        height: 200px;
-    }
-
-
-    nav {
-    margin-left: 10px;
-    float: left;
-    line-height: 40px;
-}
-
-nav li {
-    float: left;
-    clear: both;
-}
-
-#main-image {
-    height: 600px;
-}
-
-#about {
-    height: 80px;
-    width: 300px;
-    top: 500px;
-    left: 30px;
-    font-size: x-small;
-}
-
-.why_list_div {
-    font-size: 80%;
-    height: 350px;
-    margin: 0 5px 20px 5px;
-    max-width: 80%;
-}
-
-.rescue-heading {
-    font-size: 250%;
-    margin-bottom: 20px;
-}
-
-#rescue-resources {
-    height: 500px;
-    width: 100%;
-    clear: left;
-}
-
-
-#black-cat-pic-2-section {
-    width: 100%;
-    float: left;
-    clear: left;
-}
-
-#get-involved {
-    height: 600px;
-    overflow-y: scroll;
-}
-
-#comp-form-section {
-    width: 100%;
-    margin: auto;
-}
-
-#comp-image-section {
-    width: 100%;
-    float: left;
+        clear: both;
    }
-
-#comp-description {
-    top: 40px;
-    height: 220px;
-    width: 80%;
-    left: 25px;
-    font-size: small;
 }
-
+/*for mobile devices*/
+@media screen and (max-width: 600px) {
+    h1 {
+        font-size: 200%;
+   }
+    nav {
+        margin-left: 10px;
+        margin-bottom: 5px;
+        float: left;
+        font-size: 75%;
+   }
+    nav li {
+        float: left;
+        clear: both;
+   }
+    #main-image-section {
+        height: 550px;
+   }
+    #about {
+        height: 80px;
+        width: 200px;
+        top: 100px;
+        left: 30px;
+        font-size: xx-small;
+   }
+    .why_list_div {
+        font-size: 80%;
+        height: 380px;
+        margin: 20px 5px 20px 5px;
+        max-width: 80%;
+   }
+    #rescue-resources {
+        height: 500px;
+        width: 100%;
+        clear: left;
+   }
+    #black-cat-pic-2-section {
+        width: 100%;
+        float: left;
+        clear: left;
+   }
+    #get-involved {
+        height: 600px;
+        overflow-y: scroll;
+   }
+    #comp-form-section {
+        width: 100%;
+        margin: auto;
+   }
+    #comp-image-section {
+        width: 100%;
+        float: left;
+   }
+    #comp-description {
+        top: 40px;
+        height: 220px;
+        width: 80%;
+        left: 25px;
+        font-size: small;
+   }
 }
-
