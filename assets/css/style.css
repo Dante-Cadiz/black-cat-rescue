@@ -251,6 +251,9 @@ form > input {
 }
 
 @media screen and (max-width: 900px) {
+    .rescue-heading {
+        font-size: 150%;
+   }
     #rescue-comic {
         display: none;
    }
