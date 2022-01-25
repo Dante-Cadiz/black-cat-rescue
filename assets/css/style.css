@@ -232,8 +232,7 @@ form > input {
 #comp-description h2 {
     text-align: center;
 }
-/*media queries*/
-/*for smaller desktop screens*/
+
 @media screen and (max-width: 1200px) {
     #about {
         top: 500px;
@@ -250,7 +249,7 @@ form > input {
         float: none;
    }
 }
-/*for tablets and other smaller screen sizes*/
+
 @media screen and (max-width: 900px) {
     #rescue-comic {
         display: none;
@@ -261,7 +260,7 @@ form > input {
         clear: both;
    }
 }
-/*for mobile devices*/
+
 @media screen and (max-width: 600px) {
     h1 {
         font-size: 200%;
