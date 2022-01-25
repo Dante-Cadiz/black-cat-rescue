@@ -11,7 +11,7 @@ Visual layout: 2 synergetic and readable fonts are used.
 The site's color scheme is limited to black, white, and 2 shades of lilac.
 The site meets all accessibility requirements, with aria labels for images present and fonts suitable.
 The site functions fully on desktop, tablet, and mobile devices.
-The website contains multiple images. While striking, these images do not detract from the information presented in the website.
+The website contains multiple decorative background images. While striking, these images do not detract from the information presented in the website. I chose to omit alt tags from these background images as for users with screenreaders, losing the content of these images does not change the meaning of the website.
 
 ## Home page:
  ![black cat screenshot 1](https://user-images.githubusercontent.com/94368193/150524860-7a9934d3-a762-47fb-82bb-0c31b80f6570.png)
@@ -72,7 +72,7 @@ to allow the screen width to be detected correctly.
 No unfixed bugs.
 
 ## Deployment:
-The site was deployed to GitHub pages. To deploy the site:
+The site was deployed to GitHub pages. The steps taken to deploy the site were:
 In the GitHub repository, navigate to the Settings tab. 
 From the source section dropdown menu, select the Main branch. 
 The page then provided the link to the completed website.
@@ -81,5 +81,5 @@ The live link is available [here](https://dante-cadiz.github.io/black-cat-rescue
 
 ## External sources used/Credits:
 
-Code for footer social media links lifted from Code Institute's Love Running practice project.
+Code for footer social media links lifted from Code Institute's [Love Running practice project](https://github.com/Code-Institute-Org/love-running-2.0).
 Images from [pexels.com](https://www.pexels.com) and [jenny-jinya.com](https://www.jenny-jinya.com).

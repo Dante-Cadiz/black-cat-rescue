@@ -109,19 +109,19 @@ footer {
 #about h2 {
     font-size: 200% 
 }
-.why_list_div {
+.why-list-div {
     height: 300px;
     width: 40%;
     padding: 25px;
     margin: 30px;
     display: inline-block;
 }
-#why_black_cats {
+#why-black-cats {
     color: #000000;
     background-color: #FFFFFF;
     border: 5px solid rgba(106, 53, 149, 1);
 }
-#why_rescue {
+#why-rescue {
     color: #FFFFFF;
     background-color: rgba(106, 53, 149, 1);
     float: right;
@@ -239,14 +239,14 @@ form > input {
         top: 500px;
         left: 60px;
    }
-    .why_list_div {
+    .why-list-div {
         float: none;
         height: 300px;
         width: 82%;
         margin: 20px auto;
         display: block;
    }
-    #why_rescue {
+    #why-rescue {
         float: none;
    }
 }
@@ -286,7 +286,7 @@ form > input {
         left: 30px;
         font-size: xx-small;
    }
-    .why_list_div {
+    .why-list-div {
         font-size: 80%;
         height: 380px;
         margin: 20px auto;
