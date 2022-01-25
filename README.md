@@ -78,7 +78,7 @@ No unfixed bugs.
 - From the source section dropdown menu, select the Main branch. 
 - The page then provided the link to the completed website.
 
-The live link is available [here](https://dante-cadiz.github.io/black-cat-rescue/rescue.html).
+The live link is available [here](https://dante-cadiz.github.io/black-cat-rescue/).
 
 ## External sources used/Credits:
 
