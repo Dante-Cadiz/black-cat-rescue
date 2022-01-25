@@ -259,6 +259,18 @@ form > input {
         float: left;
         clear: both;
    }
+    #comp-form-section {
+        width: 50%;
+   }
+    #comp-image-section {
+        width: 50%;
+   }
+    #comp-description {
+        width: 250px;
+        height: 250px;
+        font-size: smaller;
+        top: 20px;
+   }
 }
 
 @media screen and (max-width: 600px) {
