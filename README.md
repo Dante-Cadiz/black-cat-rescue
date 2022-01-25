@@ -5,23 +5,24 @@
 Black Cat Rescue is a website advocating for the adoption and support of rescue cats; particularly black cats who are typically the last to be adopted.
 Users of this website will be able to access textual information regarding the importance of animal rescue, follow external links to other online resources supporting this cause, and participate in a writing competition to promote cat rescue and ownership. The site is targeted towards cat lovers.
 
-## Features:
+# Features:
 
-Visual layout: 2 synergetic and readable fonts are used.
-The site's color scheme is limited to black, white, and 2 shades of lilac.
-The site meets all accessibility requirements, with aria labels for images present and fonts suitable.
-The site functions fully on desktop, tablet, and mobile devices.
-The website contains multiple decorative background images. While striking, these images do not detract from the information presented in the website. I chose to omit alt tags from these background images as for users with screenreaders, losing the content of these images does not change the meaning of the website.
+## Visual layout: 
+- 2 synergetic and readable fonts are used.
+- The site's color scheme is limited to black, white, and 2 shades of lilac.
+- The site meets all accessibility requirements, with aria labels for images present and fonts suitable.
+- The site functions fully on desktop, tablet, and mobile devices.
+- The website contains multiple decorative background images. While striking, these images do not detract from the information presented in the website. I chose to omit alt tags from these background images as for users with screenreaders, losing the content of these images does not change the meaning of the website.
 
 ## Home page:
  ![black cat screenshot 1](https://user-images.githubusercontent.com/94368193/150524860-7a9934d3-a762-47fb-82bb-0c31b80f6570.png)
 
 ### Navigation:
-Featured at the top and centre of the page, the site's title shows the website name. When clicked, it links to the website's homepage.
-The other links, on the top right, navigate to the site's 3 different pages.
-This header structure is consistent across all 3 subpages within the site.
-The navigation's color contrasts with the background, and is in a bold, readable font. 
-The navigation allows the user to clearly understand the different parts of the site. 
+- Featured at the top and centre of the page, the site's title shows the website name. When clicked, it links to the website's homepage.
+- The other links, on the top right, navigate to the site's 3 different pages.
+- This header structure is consistent across all 3 subpages within the site.
+- The navigation's color contrasts with the background, and is in a bold, readable font. 
+- The navigation allows the user to clearly understand the different parts of the site. 
 
 ### Ethos tag:
 The website's ethos is expressed in the light purple div that sits in front of the hero image.
@@ -54,9 +55,9 @@ These clickable and clearly understandable icons link to various social media si
 
 ## Validator testing:
 
-HTML - No errors were detected when the code was passed through the official W3C validator.
-CSS - No errors were detected when the code was passed through the official Jigsaw validator.
-Accessibility - The website scores as followes when audited by Chrome Devtools' Lighthouse:
+- HTML - No errors were detected when the code was passed through the official W3C validator.
+- CSS - No errors were detected when the code was passed through the official Jigsaw validator.
+- Accessibility - The website scores as followes when audited by Chrome Devtools' Lighthouse:
 ![lighthouse accessibility scores](https://i.imgur.com/MzCLp0E.png)
 
 ## Bugs: 
@@ -72,14 +73,14 @@ to allow the screen width to be detected correctly.
 No unfixed bugs.
 
 ## Deployment:
-The site was deployed to GitHub pages. The steps taken to deploy the site were:
-In the GitHub repository, navigate to the Settings tab. 
-From the source section dropdown menu, select the Main branch. 
-The page then provided the link to the completed website.
+- The site was deployed to GitHub pages. The steps taken to deploy the site were:
+- In the GitHub repository, navigate to the Settings tab. 
+- From the source section dropdown menu, select the Main branch. 
+- The page then provided the link to the completed website.
 
 The live link is available [here](https://dante-cadiz.github.io/black-cat-rescue/rescue.html).
 
 ## External sources used/Credits:
 
-Code for footer social media links lifted from Code Institute's [Love Running practice project](https://github.com/Code-Institute-Org/love-running-2.0).
-Images from [pexels.com](https://www.pexels.com) and [jenny-jinya.com](https://www.jenny-jinya.com).
+- Code for footer social media links lifted from Code Institute's [Love Running practice project](https://github.com/Code-Institute-Org/love-running-2.0).
+- Images from [pexels.com](https://www.pexels.com) and [jenny-jinya.com](https://www.jenny-jinya.com).
